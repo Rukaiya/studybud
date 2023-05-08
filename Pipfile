@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "*"
+"backports.zoneinfo" = "==0.2.1"
+django = "*"
+python-decouple = "*"
+sqlparse = "==0.4.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
